@@ -19,6 +19,7 @@ More useful Maven commands (not required to run the project):
 ```bash
 # If you want to create an Eclipse project
 mvn eclipse:eclipse
+
 # To generate a new Maven project (select all default options and choose an artifactId and groupId.
 # Do not forget to add dependencies to storm-core and storm-server in the pom.xml (example in this repository).
 mvn archetype:generate
@@ -26,7 +27,7 @@ mvn archetype:generate
 
 
 Configure Storm to run locally:
-- open  _/home/apache-storm-2.1.0/conf/storm.yaml_ .
+- open  _/home/apache-storm-2.1.0/conf/storm.yaml_.
 - uncomment and change the following lines:
 
 ```
